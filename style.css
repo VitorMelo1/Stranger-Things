@@ -93,8 +93,14 @@ h2 {
   font-weight: 400;
   font-size: 36px;
 }
-ul{
+
+ul {
   list-style: none;
+}
+
+.bgMonstro {
+  background-image: url("imagens/bg-sec2.webp");
+  background-position: center;
 }
 
 .secaoCidade {
@@ -159,12 +165,51 @@ ul{
 .secaoObrigado {
   flex-direction: column;
   align-items: center;
-  h2{
+
+  h2 {
     margin-bottom: 40px;
   }
-  ul{
+
+  ul {
     display: flex;
     width: 100%;
     justify-content: space-between;
+  }
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("imagens/bg-footer.webp");
+
+  .conteudoFooter {
+    display: flex;
+    width: 100%;
+    padding: 7vw;
+
+  }
+
+  .logoFooter {
+    width: 30%;
+
+    h3 {
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 4px;
+    }
+
+    h2 {
+      font-size: 3.7vw;
+      font-family: "Benguiat";
+    }
+  }
+
+  .secoesFooter {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    gap: 6%;
   }
 }
