@@ -96,32 +96,57 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
   }
-  h2{
+
+  h2 {
     font-weight: 400;
     font-size: 36px;
   }
-  .cards{
+
+  .cards {
     margin-top: 52px;
     display: flex;
     justify-content: space-between;
-    
-    .card{
+
+    .card {
       background-image: url("imagens/card1.webp");
       width: 30%;
       aspect-ratio: 16/9;
-      background-size: cover ;
+      background-size: cover;
       background-position: center;
       display: flex;
       align-items: end;
       justify-content: space-between;
       padding: 20px;
     }
-    .card:nth-child(2){
+
+    .card:nth-child(2) {
       background-image: url("imagens/card2.webp");
     }
-    .card:nth-child(3){
-      background-image: url("imagens/card3.webp");}
+
+    .card:nth-child(3) {
+      background-image: url("imagens/card3.webp");
+    }
+  }
+}
+
+.secaoDepoimentos {
+  flex-direction: column;
+
+  .logotipos {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+  }
+
+  .depoimentos {
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-between;
+
+    .depoimento {
+      width: 31%;
+    }
   }
 }
